@@ -1,0 +1,30 @@
+{
+  "name": "gulp-karma",
+  "version": "0.0.0",
+  "description": "Karma plugin for gulp",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PascalPrecht/gulp-karma"
+  },
+  "keywords": [
+    "gulpplugin",
+    "karma"
+  ],
+  "author": "Pascal Precht",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PascalPrecht/gulp-karma/issues"
+  },
+  "homepage": "https://github.com/PascalPrecht/gulp-karma",
+  "dependencies": {
+    "event-stream": "~3.0.20"
+  },
+  "devDependencies": {
+    "should": "~2.1.1",
+    "mocha": "~1.15.1"
+  }
+}
