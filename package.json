@@ -34,7 +34,8 @@
     "karma-phantomjs-launcher": "~0.1.1",
     "karma": "~0.10.8",
     "gulp-util": "~2.1.4",
-    "lodash": "~2.4.1"
+    "lodash": "~2.4.1",
+    "karma-json-reporter": "~1.0.0"
   },
   "devDependencies": {
     "should": "~2.1.1",
