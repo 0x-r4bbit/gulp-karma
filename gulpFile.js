@@ -15,6 +15,6 @@ gulp.task('default', function(cb){
 
   gulp.src('test/*.js')
    .pipe(karma(options))
-   .pipe(karma.reporter())
+   .pipe(karma.reporter('tap'))
    .on('end', cb);
 });
